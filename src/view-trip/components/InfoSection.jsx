@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { FaShareAlt } from "react-icons/fa";
 import React, { useEffect, useState } from "react";
-import { GetPlaceDetails } from "@/service/GlobalApi";
+import { GetPlaceDetails, PHOTO_REF_URL } from "@/service/GlobalApi";
 
-const PHOTO_REF_URL='https://places.googleapis.com/v1/{NAME}/media?maxHeightPx=600&maxWidthPx=600&key='+import.meta.env.VITE_GOOGLE_PLACE_API_KEY
+
 function InfoSection({ trip }) {
   const {photoUrl,setPhotoUrl}=useState();
   useEffect(()=>{
