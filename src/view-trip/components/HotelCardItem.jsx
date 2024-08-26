@@ -9,7 +9,7 @@ function HotelCardItem({ hotel }) {
   },[hotel])
   const GetPlacePhoto=async()=>{
     const data={
-      textQuery:hotel?.HotelName
+      textQuery:hotel?.hotelName
     };
     const result=await GetPlaceDetails(data).then(resp=>{
       console.log(resp.data.places[0].photos[3].name);
@@ -24,18 +24,18 @@ function HotelCardItem({ hotel }) {
       <Link
         to={
           "https://www.google.com/maps/search/?api=1&query=" +
-          hotel?.HotelName +
-          hotel?.HotelAddress
+          hotel?.hotelName +
+          hotel?.hotelAddress
         }
         target="_blank"
       >
         <div className="hover:scale-105 transition-all cursor-pointer">
-          <img className="rounded-xl" src={photoUrl} />
+          <img className="rounded-xl" src={photoUrl?photoUrl:"/placeholder.jpg"} />
           <div className="my-2 flex flex-col">
-            <h2 className="font-medium ">{hotel?.HotelName}</h2>
-            <h2 className="text-xs text-gray-500 ">📍{hotel?.HotelAddress}</h2>
-            <h2 className="text-sm">💵{hotel?.Price} per night</h2>
-            <h2 className="text-sm">⭐{hotel?.Rating}</h2>
+            <h2 className="font-medium ">{hotel?.hotelName}</h2>
+            <h2 className="text-xs text-gray-500 ">📍{hotel?.hotelAddress}</h2>
+            <h2 className="text-sm">💵{hotel?.price} per night</h2>
+            <h2 className="text-sm">⭐{hotel?.rating}</h2>
           </div>
         </div>
       </Link>

@@ -99,7 +99,7 @@ function CreateTrip() {
   const SaveAiTrip = async (TripData) => {
     setLoading(true);
     console.log(TripData);
-    const user = JSON.parse(localStorage.getItem("user"));
+    const user = JSON.parse(localStorage.getItem('user'));
     const docId = Date.now().toString();
     await setDoc(doc(db, "AITrips", docId), {
       userSelection: formData,

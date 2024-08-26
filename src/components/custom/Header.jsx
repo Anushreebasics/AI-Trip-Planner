@@ -49,11 +49,13 @@ function Header() {
   };
 
   return (
-    <div className="p-3 shadow-sm flex justify-between items-center px-5">
+    <div className="shadow-sm flex justify-between items-center px-27 pl-3 pr-7 py-4">
       <img src="/logo.svg" alt="/placeholder.jpg"/>
       <div>
         {user ? (
           <div className="flex items-center gap-3">
+            
+            
             <a href='/create-trip'>
             <Button variant="outline" className="rounded-full">
               + Create Trip
@@ -62,6 +64,11 @@ function Header() {
             <a href='/my-trips'>
             <Button variant="outline" className="rounded-full">
               My Trips
+            </Button>
+            </a>
+            <a href='/blogs'>
+            <Button variant="outline" className="rounded-full">
+              Blogs
             </Button>
             </a>
             <Popover>

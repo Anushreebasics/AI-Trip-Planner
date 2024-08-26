@@ -6,14 +6,14 @@ function PlacesToVisit({trip}) {
     <div>
       <h2 className='font-bold text-lg'>Places to Visit</h2>
         <div>
-            {trip?.tripData?.Itinerary.map((item,index)=>(
+            {trip?.tripData?.itinerary.map((item,index)=>(
                 <div className='mt-5'>
                     
-                    <h2 className='font-medium text-lg'>{item.Day}</h2>
+                    <h2 className='font-medium text-lg'>{item.day}</h2>
                     <div className='grid md:grid-cols-2 gap-5'>
-                    {item?.Plan.map((place,index)=>(
+                    {item?.plan.map((place,index)=>(
                         <div className='my-3'>
-                            <h2 className='font-medium text-sm text-orange-700'>{place?.BestTimeToVisit}</h2>
+                            <h2 className='font-medium text-sm text-orange-700'>{place?.bestTimeToVisit}</h2>
 
                             <PlaceCardItem place={place} />
                         </div>
