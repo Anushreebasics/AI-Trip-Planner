@@ -22,3 +22,15 @@ You can try out the live version of VoyageAI here: [VoyageAI Live](https://voyag
 
 Watch a demo of VoyageAI in action: [VoyageAI Demo Video](https://youtu.be/iTsZVpHuDKw)
 
+### Challenges Faced
+1. Integrating Multiple APIs: One of the biggest challenges was integrating various APIs, such as Google Maps, GeminiAI, and hotel APIs. Ensuring smooth communication between the APIs and handling discrepancies in data formats required meticulous planning and debugging.
+
+2. Balancing Personalization with User Experience: Striking a balance between providing highly personalized recommendations and maintaining a user-friendly interface was tricky. It required several iterations to ensure the recommendations were accurate without overwhelming the user.
+
+3. Handling Real-time Data: Managing real-time data, especially when dealing with hotel availability, presented challenges in ensuring the information was up-to-date without causing performance lags.
+
+4. Budget Constraints: Implementing a reliable budget planner that could accurately estimate trip costs and suggest affordable alternatives was challenging, particularly when dealing with fluctuating prices and varying currencies.
+
+5. Cross-Platform Compatibility: Ensuring that VoyageAI was fully responsive and compatible across different devices and browsers took significant effort in testing and optimization.
+
+
