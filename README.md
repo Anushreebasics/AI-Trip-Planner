@@ -16,9 +16,9 @@ Welcome to VoyageAI, your intelligent trip planner designed to simplify travel p
 
 ## Deployed Link
 
-You can try out the live version of VoyageAI here: [VoyageAI Live](https://voyageai-dap2tmy2j-anushrees-projects-3805929d.vercel.app/)
+You can try out the live version of VoyageAI here: [VoyageAI Live](https://voyageai-ai-trip-planner.vercel.app)
 
 ## Demo Video
 
-Watch a demo of VoyageAI in action: [VoyageAI Demo Video]()
+Watch a demo of VoyageAI in action: [VoyageAI Demo Video](https://youtu.be/iTsZVpHuDKw)
 
