@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
 function UserTripCardItem({trip}) {
-    const {photoUrl,setPhotoUrl}=useState();
+    const {photoUrl,setPhotoUrl}=useState('');
   useEffect(()=>{
     trip&&GetPlacePhoto();
   },[trip])

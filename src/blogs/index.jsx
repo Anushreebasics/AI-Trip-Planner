@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Blogs() {
   return (
     <div>
-        <div className='mt-10 mb-20'>
+        <div className='mt-1 mb-20'>
             <img src="/blogsland.jpg" className='w-[1800px]'/>
             <div className='grid grid-cols-2 mt-10 md:grid-cols-3 gap-5 sm:px-10 md:px-32 lg:px-56 xl:px-10 px-5'>
                 <Link to={'https://theworldtravelguy.com/fulidhoo-island-maldives/'}>
