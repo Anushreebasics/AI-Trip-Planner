@@ -1,8 +1,24 @@
-# React + Vite
+# VoyageAI - AI-Powered Trip Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to VoyageAI, your intelligent trip planner designed to simplify travel planning by leveraging the power of AI. VoyageAI helps you create personalized itineraries, discover hidden gems, and plan unforgettable journeys with ease.
 
-Currently, two official plugins are available:
+## Features
+- **Personalized Itineraries**: Get travel plans tailored to your preferences, interests, and budget.
+- **Smart Recommendations**: Discover must-visit attractions, restaurants, and experiences.
+- **Budget Planner**: Estimate your trip costs and get suggestions within your budget.
+- **User-Friendly Interface**: Easy-to-navigate design for a seamless trip planning experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript, React.js
+- **Backend**: Node.js, Express.js
+- **Database**: Firebase
+- **APIs**: Google Maps API, GeminiAI API, Flight/Hotel APIs
+
+## Deployed Link
+
+You can try out the live version of VoyageAI here: [VoyageAI Live](https://voyageai-dap2tmy2j-anushrees-projects-3805929d.vercel.app/)
+
+## Demo Video
+
+Watch a demo of VoyageAI in action: [VoyageAI Demo Video]()
+
